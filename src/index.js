@@ -6,4 +6,12 @@ const Didact = {
 }
 
 /** @jsx Didact.createElement */
-render(<h1>Hello React</h1>, document.getElementById('root'));
+render(
+<div>
+  <h1>Hello React</h1>
+  <ul>
+    <li>Item 1</li>
+    <li>Item 2</li>
+    <li>Item 3</li>
+  </ul>
+</div>, document.getElementById('root'));

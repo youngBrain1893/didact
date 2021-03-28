@@ -16,6 +16,7 @@ export const createElement = (type, props = {}, ...children) => {
             }
           }
         }
+        return child;
       })
     }
   }
